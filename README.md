@@ -19,7 +19,7 @@ All steps below should be executed only once -- the first time you work with the
 > 1 gem installed  
 > Installing ri documentation for keydown-0.9.4...  
 > Installing RDoc documentation for keydown-0.9.4...  
-3. Ensure you have gem executable folder in your PATH. How to know what is your gem executable folder? Run gem env and look at the value of EXECUTABLE DIRECTORY
+3. Ensure you have gem executable folder in your PATH. How to know what is your gem executable folder? Run *gem env* and look at the value of EXECUTABLE DIRECTORY
 
 ## How to work on the slides?
 In fact you don't need any software to work on the slides. Just have a look http://prose.io/#avaranovich/101web/edit/master/deck/slides/slides.md
