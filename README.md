@@ -16,7 +16,7 @@ To edit MD files in the web browser, you can use http://prose.io/
       
 ## Usefull resources
 
-Just to give you an idea, of what's possible with deck.js and keydown, have a look at this example http://infews.github.com/keydown/#slide-0
+Whant to have an idea of what's possible with deck.js and keydown, have a look at this example http://infews.github.com/keydown/#slide-0
 
 Want to know more about markdown syntax? http://daringfireball.net/projects/markdown/syntax
 
