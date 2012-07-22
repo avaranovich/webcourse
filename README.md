@@ -8,5 +8,5 @@ To edit MD files in the web browser, you can use http://prose.io/
 
 ## How to get started?
 1. Ensure you have Ruby (http://www.ruby-lang.org/en/) and Rubygems (http://rubygems.org/) installed.
-1. You need to build and install keydown
+2. Build keydown gem by executing bootstrap.sh
 
