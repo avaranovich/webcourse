@@ -12,7 +12,7 @@ To edit MD files in the web browser, you can use http://prose.io/
 > Successfully built RubyGem   
 > Name: keydown   
 > Version: 0.9.4   
-> File: keydown-0.9.4.gem 	
+> File: keydown-0.9.4.gem   	
       
 ## Usefull resources
 
