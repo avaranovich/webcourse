@@ -17,6 +17,7 @@ To edit MD files in the web browser, you can use http://prose.io/
 > 1 gem installed  
 > Installing ri documentation for keydown-0.9.4...  
 > Installing RDoc documentation for keydown-0.9.4...  
+3. Ensure you have gem executable folder in your PATH. How to know what is your gem executable folder? Run gem env and look at the value of EXECUTABLE DIRECTORY
 
       
 ## Usefull resources
