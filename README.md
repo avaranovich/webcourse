@@ -9,6 +9,7 @@ To edit MD files in the web browser, you can use http://prose.io/
 ## How to get started?
 All steps below should be executed only once -- the first time you work with the keydown.
 
+0. Clone the project. Ensure the submodules are initialized by running *git submodule init* and *git submodule update*
 1. Ensure you have Ruby (http://www.ruby-lang.org/en/) and Rubygems (http://rubygems.org/) installed.
 2. Build keydown gem by executing bootstrap.sh. You should see something like this in the console:  
 > Successfully built RubyGem   
