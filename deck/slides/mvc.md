@@ -2,6 +2,9 @@ Model-View-Controller (MVC)
 
 with RoR examples 
 
+!SLIDE
+
+}}} images/Design_Patterns_cover.jpg.jpg
 
 !SLIDE
 Resources
