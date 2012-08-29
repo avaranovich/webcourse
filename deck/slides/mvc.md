@@ -4,7 +4,9 @@ with RoR examples
 
 !SLIDE
 
-}}} images/Design_Patterns_cover.jpg.jpg
+http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/
+
+}}} images/Design_Patterns_cover.jpg
 
 !SLIDE
 Resources
