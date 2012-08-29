@@ -23,6 +23,15 @@ The Rails MVC
 
 !SLIDE
 
+# Controller
+
+- It handles people-friendly URLs extremely well.
+- It manages caching, which can give applications orders-of-magnitude performance boosts.
+- It manages helper modules, which extend the capabilities of the view templates without bulking up their code.
+- It manages sessions, giving users the impression of ongoing interaction with our applications.
+
+!SLIDE
+
 Resources
 * https://github.com/lifo/docrails
 * Agile Web Development with Rails (4th edition) http://pragprog.com/book/rails4/agile-web-development-with-rails
