@@ -12,7 +12,6 @@
 !NOTES
 * http://blog.iandavis.com/2008/12/09/what-are-the-benefits-of-mvc/
 
-
 !SLIDE
 ![Model-View-Controller](images/MVC.png)
 The Model-View-Controller Architecture
@@ -29,6 +28,15 @@ The Rails MVC
 - It manages caching, which can give applications orders-of-magnitude performance boosts.
 - It manages helper modules, which extend the capabilities of the view templates without bulking up their code.
 - It manages sessions, giving users the impression of ongoing interaction with our applications.
+
+!SLIDE
+
+URLs Are Mapped to Controllers and Actions
+
+!SLIDE
+
+DEMO
+https://github.com/avaranovich/webcourse/tree/master/demos/rails/hello
 
 !SLIDE
 
