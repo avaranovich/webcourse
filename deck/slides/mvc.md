@@ -6,6 +6,10 @@
 
 !SLIDE
 
+Objectives
+
+!SLIDE
+
 * The Model is the application object, the View is its screen presentation, and the Controller defines the way the user interface reacts to user input
 ![Design patterns](images/Design_Pattern_Book_cover.jpg)
 

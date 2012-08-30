@@ -2,6 +2,10 @@
 
 !SLIDE
 
+Objectives
+
+!SLIDE
+
 node.js -- server-side javascript built on top op V8
 
 !SLIDE
