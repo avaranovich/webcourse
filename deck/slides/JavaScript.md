@@ -6,6 +6,15 @@ Objectives
 
 !SLIDE
 
+<div>
+  <textarea id="code" name="code" class="code" mode="javascript" style="display: none;" runnable="true">// codemirror demo party!
+    var greeter = function(name) {
+      return "Why hello there " + name;
+    }
+    console.log(greeter("Joe"));
+  </textarea>
+</div>
+
 !SLIDE 
 OO in JavaScript
 

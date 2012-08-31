@@ -1,5 +1,6 @@
 all:
 	make mvc.md
+	make JavaScript.md
 
 %.md:
 	cd slides; keydown slides $*.md
