@@ -1,4 +1,7 @@
 all:
+	make intro.md
+	make sss.md
+	make rest.md
 	make mvc.md
 	make JavaScript.md
 
