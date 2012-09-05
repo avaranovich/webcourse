@@ -1,12 +1,12 @@
-# Node.js showcase
+# Node.js
+
+!SLIDE left
+
+##Objectives
 
 !SLIDE
 
-Objectives
-
-!SLIDE
-
-node.js -- server-side javascript built on top op V8
+### node.js -- server-side javascript built on top op V8
 
 !SLIDE
 A simple http server in node

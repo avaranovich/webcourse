@@ -1,0 +1,29 @@
+.rest .content table
+{
+    border-color: #600;
+    border-width: 1px 1px 1px 1px !important;
+    border-style: solid;
+}
+.rest .content tr
+{
+    border: 1px !important;
+}
+.rest .content td
+{
+    border-color: #600;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    background-color: #FFC;
+}
+.rest .content th                                                                                                                                    
+{                                                                                                                                                 
+    border-color: #600;                                                                                                                              
+    border-width: 1px 1px 1px 1px;                                                                                                                   
+    border-style: solid;                                                                                                                             
+    margin: 0;                                                                                                                                       
+    padding: 4px;                                                                                                                                    
+    background-color: #FFC;                                                                                                                          
+}                                                                                                                                                     
+    

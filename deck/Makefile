@@ -4,6 +4,7 @@ all:
 	make rest.md
 	make mvc.md
 	make JavaScript.md
+	make node.md
 
 %.md:
 	cd slides; keydown slides $*.md
