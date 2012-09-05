@@ -94,23 +94,28 @@ var myObject = (function () {
 !SLIDE
 ## Async request from the server/db
 
-``` js
-//sync
-request = prepare_the_request(  );
-response = send_request_synchronously(request);
-display(response);
-``` 
-
-```js 
-//async
-request = prepare_the_request(  );
-send_request_asynchronously(request, function (response) {
+### Syncronous call
+<div id="code" name="code" class="code" mode="javascript" style="display: none;" runnable="false">
+ request = prepare_the_request(...);
+ response = send_request_synchronously(request);
  display(response);
-});
-``` 
+</div>
+
+### Asyncronous call
+<div id="code" class="code" name="code" mode="javascript"
+style="display: none;" runnable="false"> 
+  request = prepare_the_request(....);
+  send_request_asynchronously(request, function (response) {
+     display(response);
+  });     
+</div>
 
 !SLIDE
-DOM
+## HTML Document Object Model (DOM)
+
+<div>
+<textarea type="text/html" class="code" mode="text/html"
+style="display: none;">
 <html>
   <head>
       <title>My title</title>
@@ -119,27 +124,26 @@ DOM
     <a href=""></a>
   </body>
 </html>
+</textarea>
+</div>
 
 ![HTML Tree](images/htmltree.gif) 
 
 !SLIDE
-Events
+## DOM Events
 
+``` js
 var button = document.getElementById("createButton");
-button.addEventListener("click", function(){ /* ... */ }, false);
-
-var listener = function(event) { /* ... */ };
-button.addEventListener("click", listener, false);
-button.removeEventListener("click", listener, false);
+utton.addEventListener("click", function(){ /* ... */ }, false);
+```
 
 !SLIDE
-jQuery
+## jQuery
 
 !SLIDE
-Resources
-
+## Resources
 - JavaScript: The Good Parts by Douglas Crockford
-- 
+
 
 
 
