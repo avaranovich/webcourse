@@ -2,14 +2,14 @@
 
 !SLIDE
 
-Objectives
+## Objectives
 
 !SLIDE
 >JavaScript (sometimes abbreviated JS) is a prototype-based  scripting language that is dynamic, weakly typed and has first-class functions.It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. 
 
 *Wikipedia*
 
-!SLIDE
+!SLIDE left
 
 ![TIOBE Index JavaScript](images/history_JavaScript.png)
 
@@ -32,23 +32,24 @@ ECMAScript
     var add = function (a, b) {
        return a + b;
    };
+   console.log(add(2,3))
   </textarea>
 </div>
 
 !SLIDE
 
-Objects. Prototype (demo: javascript/prototype.js)
+## Objects in JS. Prototype (demo: javascript/prototype.js)
+
+!SLIDE left
+
+## Functions are objects, too
+* The Method Invocation Pattern
+* The Function Invocation Pattern
+* The Constructor Invocation Pattern
 
 !SLIDE
 
-Functions are objects, too.
-The Method Invocation Pattern
-The Function Invocation Pattern
-The Constructor Invocation Pattern
-
-!SLIDE
-
-Closures. Hidind properties of the object
+## Closures. Hiding properties of the object
 
 ``` js
 var myObject = (function () {
@@ -64,9 +65,11 @@ var myObject = (function () {
 ```
 
 !SLIDE 
-OO in JavaScript
+## OO in JavaScript
 
 !SLIDE
+
+## Callbacks
 
 <div>
   <textarea id="code" name="code" class="code" mode="javascript" style="display: none;" runnable="true">
@@ -88,18 +91,23 @@ OO in JavaScript
   </textarea>
 </div>
 
-Callbacks. (Async request from the server/db)
+!SLIDE
+## Async request from the server/db
 
+``` js
 //sync
 request = prepare_the_request(  );
 response = send_request_synchronously(request);
 display(response);
+``` 
 
+```js 
 //async
 request = prepare_the_request(  );
 send_request_asynchronously(request, function (response) {
  display(response);
 });
+``` 
 
 !SLIDE
 DOM
