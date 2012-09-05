@@ -1,4 +1,4 @@
-# JavaScript on the client
+# JavaScript
 
 !SLIDE
 
@@ -23,7 +23,7 @@ http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
 !SLIDE
 
 http://www.ecma-international.org/ecma-262/5.1/Ecma-262.pdf
-ECMAScript
+## ECMAScript
 
 !SLIDE
 
@@ -38,20 +38,62 @@ ECMAScript
 
 !SLIDE
 
-## Objects in JS. Prototype (demo: javascript/prototype.js)
+## Objects in JS.Prototype 
+##### demo: javascript/prototype.js
 
 !SLIDE left
-
 ## Functions are objects, too
-* The Method Invocation Pattern
-* The Function Invocation Pattern
-* The Constructor Invocation Pattern
 
 !SLIDE
+## The Method Invocation Pattern 
+<div> 
+  <textarea id="code" name="code" class="code" mode="javascript" style="display: none" runnable="true">
+   var company = {
+     total: 1000,
+     increment: function(val){ this.total += val; }
+    }
+    company.increment(100);
+    console.log(company.total);
+  </textarea>
+ </div>
+ 
+!SLIDE 
+## The Function Invocation Pattern
+<div> 
+  <textarea id="code" name="code" class="code" mode="javascript" style="display: none" runnable="true">
+  add = function (a,b) { 
+     debugger; 
+     console.log(this); //this -- a global object here
+     return a+b;}
+  add(2,3);   
+  </textarea>
+ </div>
 
+!SLIDE
+##  The Constructor Invocation Pattern
+<div>
+ <textarea id="code" name="code" class="code" mode="javascript" style="display: none" runnable="true">
+   // Create a constructor function for the Employee.
+   // It makes an object with a total property.
+   var Employee = function (name) {
+       this.name = name;
+   };
+   // Give all instances of an Enployee a public method
+   Employee.prototype.get_name = function (  ) {
+       return this.name;
+   };
+   // Make an instance of Quo.
+   var ralf = new Employee('Ralf');
+   debugger;
+   name = ralf.get_name();
+   console.log(name);
+  </textarea>
+ </div>
+
+!SLIDE
 ## Closures. Hiding properties of the object
 
-``` js
+``` javascript
 var myObject = (function () {
        var value = 0;
        return {
@@ -95,19 +137,24 @@ var myObject = (function () {
 ## Async request from the server/db
 
 ### Syncronous call
-<div id="code" name="code" class="code" mode="javascript" style="display: none;" runnable="false">
+<div>
+  <textarea type="javascript" class="code" mode="javascript"
+style="display: none;">
  request = prepare_the_request(...);
  response = send_request_synchronously(request);
  display(response);
+</textarea>
 </div>
 
 ### Asyncronous call
-<div id="code" class="code" name="code" mode="javascript"
-style="display: none;" runnable="false"> 
+<div> 
+  <textarea type="javascript" class="code" mode="javascript"
+style="display: none;">
   request = prepare_the_request(....);
   send_request_asynchronously(request, function (response) {
      display(response);
-  });     
+  });  
+  </textarea>   
 </div>
 
 !SLIDE
@@ -118,10 +165,11 @@ style="display: none;" runnable="false">
 style="display: none;">
 <html>
   <head>
-      <title>My title</title>
+    <title>My title</title>
   </head>
   <body>
-    <a href=""></a>
+    <a href="#">My Link</a>
+    <h1>My header</h1>
   </body>
 </html>
 </textarea>
@@ -132,9 +180,9 @@ style="display: none;">
 !SLIDE
 ## DOM Events
 
-``` js
+``` javascript
 var button = document.getElementById("createButton");
-utton.addEventListener("click", function(){ /* ... */ }, false);
+button.addEventListener("click", function(){ /* ... */ }, false);
 ```
 
 !SLIDE
@@ -142,7 +190,9 @@ utton.addEventListener("click", function(){ /* ... */ }, false);
 
 !SLIDE
 ## Resources
-- JavaScript: The Good Parts by Douglas Crockford
+* https://developer.mozilla.org/de/
+* JavaScript: The Good Parts by Douglas Crockford
+* http://jsperf.com/browse
 
 
 
