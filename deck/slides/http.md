@@ -1,8 +1,14 @@
 # HTTP Protocol
 
-!SLIDE
+!SLIDE 
+# HTTP (?? Web programming basics??)
 
+!SLIDE left
 ## Objectives
+* 1
+* 2
+* 3
+* 4
 
 !SLIDE left
 # Key notions for today
@@ -15,7 +21,7 @@
 
 !SLIDE
 # DEMO
-## 101implementation:html5local
+## [101implementation:html5local](http://101companies.org/index.php/101implementation:html5local)
 
 !SLIDE
 ![](images/webProg/webProgramming.004.png)
