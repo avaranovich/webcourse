@@ -37,11 +37,14 @@
 
 !SLIDE
 ## Model
-### Maps to a table in a database. By convention, a model named User will map to the database table users, and the model will have a filename user.rb within app/models.
+### Maps to a table in a database. By convention, a model named Company will map to the database table users, and the model will have a filename company.rb within app/models.
+
+![](images/rails_model.png)
 
 !SLIDE
 ## Controller
 ### Rresponds to external requests from the web server to the application, and responds to the external request by determining which view file to render.
+![](images/rails_controller.png)
 
 !SLIDE left
 ## Controller (II)
@@ -52,6 +55,7 @@
 !SLIDE
 ## View
 ### In the default configuration of Rails is an erb file. It is typically converted to output html at run-time.
+![](images/rails_view.png)
 
 !SLIDE
 ## The Rails MVC
