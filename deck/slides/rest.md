@@ -1,10 +1,7 @@
 # REpresentational State Transfer (REST)
 
 !SLIDE
-## Objectives
-* 1
-* 2
-* 3
+#REpresentational State Transfer (REST)
 
 !SLIDE
 ## REST - a *set of principles* that define how Web standards, such as HTTP and URIs, are supposed to be used
@@ -74,6 +71,13 @@ TODO: add some code snapshots
 * Client-Server
 * Stateless
 * Cache
+
+!SLIDE left
+## Summary
+### You learned
+* 1
+* 2
+* 3
 
 !SLIDE left
 ## Resources

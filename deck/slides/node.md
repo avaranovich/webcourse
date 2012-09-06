@@ -12,7 +12,7 @@
 * Build real-time web applications with node.js and websockets
 
 !SLIDE
-### node.js -- server-side javascript built on top op V8
+### node.js -- server-side javascript built on top of V8
 #### [http://nodejs.org](http://nodejs.org)
 
 !SLIDE

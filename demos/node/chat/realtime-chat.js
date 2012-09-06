@@ -19,11 +19,11 @@ var server = http.createServer(function(req, res) {
 });
 server.listen(3000);
 
-var socket = io.listen(server);
-socket.on('connection', function( client ) {
+var server = io.listen(server);
+server.on('connection', function( client ) {
 	client.on('message', function(data) {
 		console.log("Message: " + JSON.stringify(data));
-		socket.sockets.send(data);
+		server.sockets.send(data);
 	});
 	client.on('disconnect', function() {
 	});

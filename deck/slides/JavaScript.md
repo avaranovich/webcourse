@@ -3,13 +3,6 @@
 !SLIDE
 # JavaScript
 
-!SLIDE left
-## Objectives
-* Learn basics of JavaScript (including OO)
-* Lerarn how to write asyncronous code in JavaScript
-* Learn how to work with HTML Document Object Model
-* Learn how to write advanced client-side web apps with jQuery
-
 !SLIDE
 >JavaScript (sometimes abbreviated JS) is a prototype-based  scripting
 language that is dynamic, weakly typed and has first-class functions. It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. 
@@ -162,25 +155,19 @@ Employee.prototype.toString = function(){
 ## Async request from the server/db
 
 ### Syncronous call
-<div>
-  <textarea type="javascript" class="code" mode="javascript"
-style="display: none;">
+``` javascript
  request = prepare_the_request(...);
  response = send_request_synchronously(request);
  display(response);
-</textarea>
-</div>
+```
 
 ### Asyncronous call
-<div> 
-  <textarea type="javascript" class="code" mode="javascript"
-style="display: none;">
+``` javascript
   request = prepare_the_request(....);
   send_request_asynchronously(request, function (response) {
      display(response);
   });  
-  </textarea>   
-</div>
+```
 
 !SLIDE
 ## HTML Document Object Model (DOM)
@@ -223,10 +210,17 @@ $(document).ready(function(){
 ```
 
 !SLIDE left
+## Summary
+### You learned
+* basics of JavaScript (including OO)
+* how to write asyncronous code in JavaScript
+* how to work with HTML Document Object Model
+* how to write advanced client-side web apps with jQuery
+
+!SLIDE left
 ## Resources
-* https://developer.mozilla.org/de/
+* [https://developer.mozilla.org/de/])https://developer.mozilla.org/de/)
 * JavaScript: The Good Parts by Douglas Crockford
-* http://jsperf.com/browse
 
 
 

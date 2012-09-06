@@ -4,13 +4,6 @@
 # HTTP (?? Web programming basics ??)
 
 !SLIDE left
-## Objectives
-* 1
-* 2
-* 3
-* 4
-
-!SLIDE left
 # Key notions for today
 
 * Web programming
@@ -35,8 +28,16 @@
 !SLIDE
 ![](images/webProg/webProgramming.007.png)
 
+!SLIDE left
+## Summary
+* 1
+* 2
+* 3
+* 4
+
 !SLIDE
-## Resources
+## Summary
+### You learned
 * 1
 * 2
 * 3

@@ -3,13 +3,6 @@
 !SLIDE
 # Server-side scripting
 
-!SLIDE left
-## Objectives
-* 1
-* 2
-* 3
-* 4
-
 !SLIDE
 ![Dynamic page](images/Scheme_dynamic_page_en.svg)
 ### Dynamics web pages
@@ -20,10 +13,6 @@
 * Apache http server project
 * http://httpd.apache.org
 * Apache foundation started to support the web server project, but now extends to a multitude of other projects.
-
-!SLIDE
-![Web servers statistics](images/ws-apache.png)
-### Web server usage statistics
 
 !SLIDE
 # Demo: configuring Apache
@@ -38,6 +27,9 @@
 ![Apache](images/apache.png)
 
 !SLIDE
+TODO: php definition
+
+!SLIDE
 ![](images/webProg/php1.png)
 
 !SLIDE
@@ -48,5 +40,13 @@ loop generating a table from PHP array
 ### DEMO [101implementation:PHP](http://101companies.org/index.php/101implementation:php)
 
 !SLIDE left
+## Summary
+### You learned
+* 1
+* 2
+* 3
+* 4
+
+!SLIDE left
 ## Resources
-* http://www.w3schools.com/php/default.asp
+* [http://www.w3schools.com/php/default.asp](http://www.w3schools.com/php/default.asp)
