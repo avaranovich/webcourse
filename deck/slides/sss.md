@@ -1,5 +1,8 @@
 # Server-side scripting
 
+!SLIDE
+# Server-side scripting
+
 !SLIDE left
 ## Objectives
 * 1
@@ -28,12 +31,18 @@
 
 !NOTES
 1. enable LoadModule php5_module libexec/apache2/libphp5.so          2. sudo apachectl restart
-3. http://localhost/index.php                                                                                                             
+3. http://localhost/index.php                                         
+!SLIDE
+                                                                     
 !SLIDE
 ![Apache](images/apache.png)
 
 !SLIDE
 ![](images/webProg/php1.png)
+
+!SLIDE
+TODO: more on Scripting in PHP
+loop generating a table from PHP array
 
 !SLIDE 
 ### DEMO [101implementation:PHP](http://101companies.org/index.php/101implementation:php)

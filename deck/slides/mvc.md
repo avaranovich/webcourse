@@ -6,7 +6,7 @@
 
 !SLIDE
 
-Objectives
+## Objectives
 
 !SLIDE
 
@@ -18,11 +18,11 @@ Objectives
 
 !SLIDE
 ![Model-View-Controller](images/MVC.png)
-The Model-View-Controller Architecture
+## The Model-View-Controller Architecture
 
 !SLIDE
 ![Rails MVC](images/Rails_MVC.png)
-The Rails MVC
+## The Rails MVC
 
 !SLIDE
 
@@ -35,16 +35,15 @@ The Rails MVC
 
 !SLIDE
 
-URLs Are Mapped to Controllers and Actions
+## URLs Are Mapped to Controllers and Actions
 
 !SLIDE
 
-DEMO
+## DEMO
 https://github.com/avaranovich/webcourse/tree/master/demos/rails/hello
 
-!SLIDE
-
-Resources
+!SLIDE left
+## Resources
 * https://github.com/lifo/docrails
 * Agile Web Development with Rails (4th edition) http://pragprog.com/book/rails4/agile-web-development-with-rails
 

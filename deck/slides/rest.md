@@ -66,6 +66,9 @@
 ## DEMO
 ### [101implementation:rubyonrails](http://101companies.org/index.php/101implementation:rubyonrails)
 
+!SLIDE
+TODO: add some code snapshots 
+
 !SLIDE left
 ## Properties of the REST
 * Client-Server
@@ -74,6 +77,6 @@
 
 !SLIDE left
 ## Resources
-* [A Brief Introduction to REST](http://www.infoq.com/articles/rest-introduction)
+* [A Brief Introduction to REST: http://www.infoq.com/articles/rest-introduction](http://www.infoq.com/articles/rest-introduction)
 * [Architectural Styles and
-the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
+the Design of Network-based Software Architectures: http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
