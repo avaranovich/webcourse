@@ -1,7 +1,7 @@
 # HTTP Protocol
 
 !SLIDE 
-# HTTP (?? Web programming basics??)
+# HTTP (?? Web programming basics ??)
 
 !SLIDE left
 ## Objectives
@@ -34,3 +34,9 @@
 
 !SLIDE
 ![](images/webProg/webProgramming.007.png)
+
+!SLIDE
+## Resources
+* 1
+* 2
+* 3
