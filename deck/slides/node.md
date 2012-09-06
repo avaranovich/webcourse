@@ -3,14 +3,6 @@
 !SLIDE
 # node.js and real-time web-applications
 
-!SLIDE left
-
-## Objectives
-* Learn basics of node.js
-* Understand the key features of HTTP 1.1
-* Understand how websockets work
-* Build real-time web applications with node.js and websockets
-
 !SLIDE
 ### node.js -- server-side javascript built on top of V8
 #### [http://nodejs.org](http://nodejs.org)
@@ -144,6 +136,14 @@ transport mechanisms. It's care-free realtime 100% in JavaScript.
 
 !SLIDE
 # DEMO: Web chat
+
+!SLIDE left
+## Summary
+### You learned
+* basics of node.js
+* how to take advantage of key features of HTTP 1.1
+* how websockets work
+* how to build real-time web applications with node.js and websockets
 
 !SLIDE left
 ## Resources
