@@ -15,12 +15,12 @@
 ## The Model-View-Controller Architecture
 ![Model-View-Controller](images/MVC.png)
 
-!SLIDE
+!SLIDE left
 ## What is Rails?
 * A web application development framework written in the Ruby language.
 * It makes the assumption that there is a “best” way to do things, and it’s designed to encourage that way – and in some cases to discourage alternatives.
 
-!SLIDE
+!SLIDE left
 ## Rails philosophy
 * DRY – “Don’t Repeat Yourself” – suggests that writing the same code over and over again is a bad thing.
 * Convention Over Configuration – means that Rails makes assumptions about what you want to do and how you’re going to do it, rather than requiring you to specify every little thing through endless configuration files.
@@ -37,7 +37,7 @@
 
 !SLIDE
 ## Model
-### Maps to a table in a database. By convention, a model named Company will map to the database table users, and the model will have a filename company.rb within app/models.
+### Maps to a table in a database. By convention, a model named Company will map to the database table companies, and the model will have a filename company.rb within app/models.
 
 ![](images/rails_model.png)
 
@@ -60,7 +60,6 @@
 !SLIDE
 ## The Rails MVC
 ![Rails MVC](images/Rails_MVC.png)
-
 
 !SLIDE
 ## URLs Are Mapped to Controllers and Actions
