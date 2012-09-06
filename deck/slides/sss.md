@@ -28,11 +28,20 @@
 * Apache foundation started to support the web server project, but now extends to a multitude of other projects.
 
 !SLIDE
-## TODO
+## Demo: configuring Apache to work with PHP
+!NOTE edit /private/etc/apache2/httpd.conf
 
 !SLIDE
-# Demo: configuring Apache
-## /private/etc/apache2/httpd.conf
+### Configure directory DocumentRoot - the directory out of which web server will serve the documents (html, php, etc). By default, all requests are taken from this directory.
+#### DocumentRoot "/Library/WebServer/Documents"
+
+!SLIDE
+## What if we open PHP file in the browser?
+![PHP](images/php_plain.png)
+
+!SLIDE
+## Apache *php5_module* should be enabled to handle *.php files
+#### In the httpd.conf: LoadModule php5_module libexec/apache2/libphp5.so
 
 !NOTES
 1. enable LoadModule php5_module libexec/apache2/libphp5.so          2. sudo apachectl restart

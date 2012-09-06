@@ -28,12 +28,6 @@
 !SLIDE
 ![](images/webProg/webProgramming.007.png)
 
-!SLIDE left
-## Summary
-* 1
-* 2
-* 3
-* 4
 
 !SLIDE
 ## Summary

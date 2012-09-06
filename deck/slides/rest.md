@@ -75,9 +75,8 @@ TODO: add some code snapshots
 !SLIDE left
 ## Summary
 ### You learned
-* 1
-* 2
-* 3
+* REST architecture pattern
+* how to work with "resources" via HTTP
 
 !SLIDE left
 ## Resources
