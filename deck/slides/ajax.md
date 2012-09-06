@@ -9,7 +9,6 @@
 * Learn how to design your client-server applications to utilize AJAX 
 * Learn how to use client-side AJAX API from JavaScript 
 
-
 !SLIDE left
 ## What is AJAX?
 * AJAX = Asynchronous JavaScript and XML

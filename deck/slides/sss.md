@@ -1,12 +1,15 @@
 # Server-side scripting
 
-!SLIDE
-
+!SLIDE left
 ## Objectives
+* 1
+* 2
+* 3
+* 4
 
 !SLIDE
-
 ![Dynamic page](images/Scheme_dynamic_page_en.svg)
+### Dynamics web pages
 
 !SLIDE left
 ## Apache web server
@@ -17,9 +20,10 @@
 
 !SLIDE
 ![Web servers statistics](images/ws-apache.png)
+### Web server usage statistics
 
 !SLIDE
-# Demo: confoguring Apache
+# Demo: configuring Apache
 ## /private/etc/apache2/httpd.conf
 
 !NOTES
@@ -30,3 +34,10 @@
 
 !SLIDE
 ![](images/webProg/php1.png)
+
+!SLIDE 
+### DEMO [101implementation:PHP](http://101companies.org/index.php/101implementation:php)
+
+!SLIDE left
+## Resources
+* http://www.w3schools.com/php/default.asp
