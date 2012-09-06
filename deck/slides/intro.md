@@ -37,7 +37,7 @@ TBD
 * Common Gateway Interface (CGI)
 * Server-side scripting with Apache and PHP
 * REpresentational State Transfer (REST)
-* Modev-View Controller with Ruby on Rails
+* Model-View Controller with Ruby on Rails
 * JavaScript 
 * Asynchronous JavaScript and XML (AJAX)
 * Cascading Style Sheets (CSS)

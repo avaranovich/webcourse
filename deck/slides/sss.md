@@ -21,6 +21,10 @@
 * Apache foundation started to support the web server project, but now extends to a multitude of other projects.
 
 !SLIDE
+## 
+
+
+!SLIDE
 # Demo: configuring Apache
 ## /private/etc/apache2/httpd.conf
 
