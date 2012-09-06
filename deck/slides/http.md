@@ -1,5 +1,30 @@
-#HTTP Protocol
+# HTTP Protocol
 
 !SLIDE
 
-Objectives
+## Objectives
+
+!SLIDE left
+# Key notions for today
+
+* Web programming
+* Web application
+* Web development
+* Web engineering
+* Web application framework
+
+!SLIDE
+# DEMO
+## 101implementation:html5local
+
+!SLIDE
+![](images/webProg/webProgramming.004.png)
+
+!SLIDE
+![](images/webProg/webProgramming.005.png)
+
+!SLIDE
+![](images/webProg/webProgramming.006.png)
+
+!SLIDE
+![](images/webProg/webProgramming.007.png)

@@ -2,12 +2,15 @@
 
 !SLIDE
 ## Objectives
+* 1
+* 2
+* 3
 
 !SLIDE
 ## REST - a *set of principles* that define how Web standards, such as HTTP and URIs, are supposed to be used
 
 !SLIDE left
-##Resources and Resource Identifiers
+## Resources and Resource Identifiers
 * The key abstraction of information in REST is a *resource*
 * Each resource has a *resource identifier*
 
@@ -24,12 +27,7 @@
 
 !SLIDE left
 ## Accessible using standard HTTP verbs
-* GET
-* POST
-* PUT
-* DELETE
-* HEAD
-* OPTIONS
+![](images/webProg/rest1.png)
 
 !SLIDE rest
 ### RESTful Web Service HTTP methods
@@ -61,7 +59,12 @@
 </tr>
 </tbody>
 </table>
-###### [Wikipedia] http://en.wikipedia.org/wiki/Representational_state_transfer
+###### [source:Wikipedia](http://en.wikipedia.org/wiki/Representational_state_transfer)
+
+!SLIDE
+
+## DEMO
+### [101implementation:rubyonrails](http://101companies.org/index.php/101implementation:rubyonrails)
 
 !SLIDE left
 ## Properties of the REST
@@ -71,7 +74,6 @@
 
 !SLIDE left
 ## Resources
-* http://www.infoq.com/articles/rest-introduction
-* http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-
-!SLIDE
+* [A Brief Introduction to REST](http://www.infoq.com/articles/rest-introduction)
+* [Architectural Styles and
+the Design of Network-based Software Architectures](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)

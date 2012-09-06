@@ -1,5 +1,0 @@
-#JSF/Struts
-
-!SLIDE
-
-Objectives

@@ -1,16 +1,21 @@
 # JavaScript
 
 !SLIDE
-
-## Objectives
-
-!SLIDE
->JavaScript (sometimes abbreviated JS) is a prototype-based  scripting language that is dynamic, weakly typed and has first-class functions.It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. 
-
-*Wikipedia*
+# JavaScript
 
 !SLIDE left
+## Objectives
+* Learn basics of JavaScript (including OO)
+* Lerarn how to write asyncronous code in JavaScript
+* Learn how to work with HTML Document Object Model
+* Learn how to write advanced client-side web apps with jQuery
 
+!SLIDE
+>JavaScript (sometimes abbreviated JS) is a prototype-based  scripting
+language that is dynamic, weakly typed and has first-class functions. It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. 
+[*Wikipedia*](http://en.wikipedia.org/wiki/JavaScript)
+
+!SLIDE left
 ![TIOBE Index JavaScript](images/history_JavaScript.png)
 
 - Highest Rating (since 2001): 4.021% (8th position, June 2009)
@@ -18,15 +23,13 @@
 - Paradigms: Object-Oriented, Procedural, Functional
 - Type system: Dynamically typed
 
-http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
 
 !SLIDE
-
-http://www.ecma-international.org/ecma-262/5.1/Ecma-262.pdf
-## ECMAScript
+## Standartized JavaScript = ECMAScript
+[http://www.ecma-international.org/ecma-262/5.1/Ecma-262.pdf]
 
 !SLIDE
-
 <div>
   <textarea id="code" name="code" class="code" mode="javascript" style="display: none;" runnable="true">
     var add = function (a, b) {
@@ -37,7 +40,6 @@ http://www.ecma-international.org/ecma-262/5.1/Ecma-262.pdf
 </div>
 
 !SLIDE
-
 ## Objects in JS.Prototype 
 ##### demo: javascript/prototype.js
 
@@ -82,7 +84,7 @@ http://www.ecma-international.org/ecma-262/5.1/Ecma-262.pdf
    Employee.prototype.get_name = function (  ) {
        return this.name;
    };
-   // Make an instance of Quo.
+   // Make an instance of Employee.
    var ralf = new Employee('Ralf');
    debugger;
    name = ralf.get_name();
@@ -207,9 +209,18 @@ style="display: none;">
 var button = document.getElementById("createButton");
 button.addEventListener("click", function(){ /* ... */ }, false);
 ```
+### [DEMO](http://jsfiddle.net/DrGigabit/aQctY/1/)
 
 !SLIDE
-## jQuery
+
+## [jQuery](http://jquery.org) 
+>jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
+
+``` javascript
+$(document).ready(function(){
+   alert("welcome");
+ });
+```
 
 !SLIDE left
 ## Resources
