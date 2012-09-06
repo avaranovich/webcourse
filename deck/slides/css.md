@@ -3,16 +3,17 @@
 !SLIDE 
 # Cascading Style Shets (CSS)
 
-!SLIDE left
-## Objectives
-* Learn basic principles of CSS
-* Learn how to use CSS for layouts
-* Learn what's new in CSS3
-
 !SLIDE
 ## What is CSS?
 * ### Cascading Style Sheets (CSS) is a language for specifying how **documents** are presented to users.
 * ### A **document** is a collection of information that is structured using a markup language.
+
+!SLIDE left
+* Provides a powerful and flexible way to control the details of web documents.
+* HTML is more concerned about the content, CSS is used to impose a particular style on the document.
+* Named cascading style sheets because they can be defined at three different levels to specify the style of a document.
+Inline, document level, external.
+
 
 !SLIDE
 ## CSS Rules
@@ -51,6 +52,14 @@ selector { property1: value1; property2: value2 }
 # CSS3
 * [http://css3please.com/](http://css3please.com/)
 * [http://css-tricks.com/](http://css-tricks.com/)
+
+!SLIDE left
+## Objectives
+### You learnt about
+* basic principles of CSS
+* how to use CSS for layouts
+* what's new in CSS3
+
 
 !SLIDE left
 ## Resoruces

@@ -10,9 +10,16 @@
 ### Dynamics web page
 ![Dynamic page](images/Scheme_dynamic_page_en.svg)
 
-!SLIDE
-## Key components of 
-*by the web server itself or via extension modules (e.g. mod_perl or mod php) to the web server.
+!SLIDE left
+## Scripting
+* Embed simple code in HTML pages.
+* The HTML pages use the code to decide what elements to display and what data should be displayed.
+* Existing APIs can be invoked to compute information for inclusion in the web page.
+
+!SLIDE left
+## Key components of Server-Side Scripting
+* Web Server
+* Server-side processor - interprets scripts and generates HTML
 
 !SLIDE left
 ## Apache web server
@@ -21,8 +28,7 @@
 * Apache foundation started to support the web server project, but now extends to a multitude of other projects.
 
 !SLIDE
-## 
-
+## TODO
 
 !SLIDE
 # Demo: configuring Apache
@@ -30,14 +36,17 @@
 
 !NOTES
 1. enable LoadModule php5_module libexec/apache2/libphp5.so          2. sudo apachectl restart
-3. http://localhost/index.php                                         
-!SLIDE
+3. http://localhost/index.php                                        
                                                                      
 !SLIDE
 ![Apache](images/apache.png)
 
 !SLIDE
 >PHP is a general-purpose server-side scripting language originally designed for Web development to produce dynamic Web pages. It is one of the first developed server-side scripting languages to be embedded into an HTML source document rather than calling an external file to process data. The code is interpreted by a Web server with a PHP processor module which generates the resulting Web page.
+
+!SLIDE 
+## PHP Flow
+![](images/php_flow.png)
 
 !SLIDE
 ![](images/webProg/php1.png)
@@ -52,10 +61,10 @@ loop generating a table from PHP array
 !SLIDE left
 ## Summary
 ### You learned
-* 1
-* 2
-* 3
-* 4
+* the priciples behind Server-Side Scripting
+* about the role of web server in web applications
+* Apache web server basic configuration
+* how generate dynamic web pages with PHP
 
 !SLIDE left
 ## Resources
