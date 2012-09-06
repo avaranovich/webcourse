@@ -3,6 +3,7 @@ all:
 	make http.md
 	make sss.md
 	make css.md
+	make cgi.md
 	make rest.md
 	make ajax.md
 	make mvc.md

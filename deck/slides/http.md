@@ -24,7 +24,7 @@
 ## [101implementation:html5local](http://101companies.org/index.php/101implementation:html5local)
 
 !SLIDE
-![](images/webProg/webProgramming.004.png)
+![](images/webProg/telnet.png)
 
 !SLIDE
 ![](images/webProg/webProgramming.005.png)
