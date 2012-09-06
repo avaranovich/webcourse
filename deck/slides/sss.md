@@ -25,7 +25,6 @@
 !NOTES
 1. enable LoadModule php5_module libexec/apache2/libphp5.so          2. sudo apachectl restart
 3. http://localhost/index.php                                                                                                             
-
 !SLIDE
 ![Apache](images/apache.png)
 

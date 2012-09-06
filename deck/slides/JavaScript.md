@@ -108,7 +108,30 @@ var myObject = (function () {
 
 !SLIDE 
 ## OO in JavaScript
-
+<div>
+ <textarea id="code" name="code" class="code" mode="javascript" style="display: none" runnable="false">
+ var Person = function (name) {
+       this.name = name;
+       this.isHuman = true;
+   };
+ var Employee = function (name) {
+       this.name = name;
+   };
+ Person.prototype.isHuman = function(){ 
+     return this.isHuman;
+ };  
+ Person.prototype.toString = function(){ 
+  return '[Person "'+this.name+'"]';
+ }; 
+// Here's where the inheritance occurs 
+Employee.prototype = new Person();    
+// Otherwise instances of Employee would have a constructor of Person
+Employee.prototype.constructor = Employee;        
+Employee.prototype.toString = function(){ 
+  return '[Employee "'+this.name+'"]';
+};   
+  </textarea>
+</div>  
 !SLIDE
 
 ## Callbacks
@@ -188,7 +211,7 @@ button.addEventListener("click", function(){ /* ... */ }, false);
 !SLIDE
 ## jQuery
 
-!SLIDE
+!SLIDE left
 ## Resources
 * https://developer.mozilla.org/de/
 * JavaScript: The Good Parts by Douglas Crockford
