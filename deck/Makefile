@@ -1,3 +1,6 @@
+ssh-user = softlang@linux.uni-koblenz.de
+www-dir = /home/softlang/www/webcourse12
+
 all:
 	make intro.md
 	make http.md
@@ -21,3 +24,7 @@ all:
 
 clean:
 	rm *.html
+
+upload:
+	scp -r -p output ${ssh-user}:${www-dir}
+	
