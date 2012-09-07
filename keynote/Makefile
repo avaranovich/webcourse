@@ -5,4 +5,4 @@ noop:
 
 upload:
 	ssh ${ssh-user} mkdir -p ${www-dir}
-	scp -r -p intro.pdf ${ssh-user}:${www-dir}
+	scp -r -p *.pdf ${ssh-user}:${www-dir}
